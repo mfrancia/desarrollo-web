@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130513025751) do
+ActiveRecord::Schema.define(:version => 20130517042922) do
 
   create_table "pets", :force => true do |t|
     t.string   "name"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(:version => 20130513025751) do
     t.integer  "saldo"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "dni"
   end
 
 end
