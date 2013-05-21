@@ -1,0 +1,5 @@
+gem install rspec
+
+git remote add https://github.com/mfrancia/desarrollo-web.git
+
+rspec calculadora_spec.rb
