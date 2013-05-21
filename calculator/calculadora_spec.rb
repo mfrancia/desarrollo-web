@@ -21,5 +21,28 @@ describe "#resta" do
 	end
 end
 
+describe "#multiplicar" do
+	it "should return 6 when multiply 2 by 3" do
+		@calculadora.multiplicar(2, 3).should == 6
+	end
+end
+
+describe "#division" do
+	it "should return 6 when divide 36 by 6" do
+		@calculadora.dividir(36, 6).should == 6
+	end
+end
+
+describe "#not_zero" do
+	it "should return false when 0" do
+		@calculadora.not_zero(0).should == false
+	end
+end
+
+describe "#not_zero" do
+	it "should return true when not 0" do
+		@calculadora.not_zero(6).should == true
+	end
+end
 
 end	 
